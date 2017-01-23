@@ -42,6 +42,10 @@ header.carousel .fill {
     background-size: cover;
 }
 
+.headIcon {
+ font-size: 30px;
+}
+
 /* 404 Page Styles */
 
 .error-404 {
