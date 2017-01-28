@@ -22,8 +22,9 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+            var mail_url = window.location.protocol+"//"+window.location.host+"/thankyou.php";
             $.ajax({
-                url: "./bin/contact_me.php",
+                url: mail_url,
                 type: "POST",
                 data: {
                     name: name,
